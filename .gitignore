@@ -1,0 +1,5 @@
+.idea
+target/
+/.bsp
+.env.application.conf
+outputs
