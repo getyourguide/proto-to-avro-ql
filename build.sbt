@@ -25,7 +25,7 @@ lazy val protoToAvro = project
   .in(file("src/proto-avro"))
   .settings(commonSettings)
   .settings(
-    name := "gaql-proto-to-avro",
+    name := "proto-to-avro",
     libraryDependencies ++= Seq(
       "org.apache.parquet" % "parquet-avro" % ParquetVersion,
       "org.apache.parquet" % "parquet-common" % ParquetVersion,

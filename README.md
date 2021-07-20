@@ -66,8 +66,8 @@ dive the library performance.
 
 The following code samples are intended to provide a quick way to get started. In general you use the library in two steps.
 
-- 1. Define a translation tree using a Descriptor and a list of fields to extract
-- 2. Apply the tree to a series of rows to convert the rows from Protobuf to Avro
+1. Define a translation tree using a Descriptor and a list of fields to extract
+2. Apply the tree to a series of rows to convert the rows from Protobuf to Avro
 
 Given you're working with Avro, likely you then do some further transformations such as writing the data to a file.
     
@@ -143,7 +143,7 @@ Considering just the above data, without considering the message, we would expec
   "campaign_id": "Campaign.id",
   "ad_group_id": "AdGroup.id",
   "metadata": {
-    "author": "ben",
+    "author": "Ben",
     "download_date": "the current date",
     "report_date": "Segments.date"
   }
