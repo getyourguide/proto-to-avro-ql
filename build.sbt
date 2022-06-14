@@ -30,8 +30,8 @@ lazy val protoToAvro = project
       "org.apache.parquet" % "parquet-avro" % ParquetVersion,
       "org.apache.parquet" % "parquet-common" % ParquetVersion,
       "org.apache.parquet" % "parquet-hadoop" % ParquetVersion,
-      "org.apache.hadoop" % "hadoop-common" % "3.3.0",
-      "org.apache.avro" % "avro" % "1.10.2",
+      "org.apache.hadoop" % "hadoop-common" % "3.3.1",
+      "org.apache.avro" % "avro" % "1.11.0",
       "org.apache.avro" % "avro-protobuf" % "1.10.2",
       "org.scalatest" %% "scalatest" % "3.2.7" % Test
     ),
